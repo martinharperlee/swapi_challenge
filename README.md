@@ -6,7 +6,7 @@
 ES6 \ Vue \ Vuex  - Shows knowledge of state management, modern Javascript. Could have also used React \ Redux or Angular.
 
 ### CSS:
-BEM - not ideal with scoped components but wanted to demonstrate knowledge of a variety of techniques / methodologies
+SCSS \ BEM - neither strictly required with scoped components but wanted to demonstrate knowledge of a variety of techniques / methodologies
 
 ### Tests:
 Jest - Basic unit testing for core functionality and components
@@ -26,15 +26,16 @@ npm run serve
 npm run build
 ```
 
-### Run your unit tests
+### Run unit tests
 ```
 npm run test:unit
 ```
 
-### Lints and fixes files
+### Run unit tests coverage
 ```
-npm run lint
+npm run test:unit -- --coverage
 ```
+
 ## Developer
 
 Martin Harper-Lee
