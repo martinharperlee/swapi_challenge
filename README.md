@@ -1,6 +1,6 @@
 # Swapi Challenge
 
-swapi-challenege-martin-harper-lee.netlify.com(https://swapi-challenege-martin-harper-lee.netlify.com)
+[swapi-challenege-martin-harper-lee.netlify.com](https://swapi-challenege-martin-harper-lee.netlify.com)
 
 ### Javscript: 
 ES6 \ Vue \ Vuex  - Shows knowledge of state management, modern Javascript. Could have also used React \ Redux or Angular.
@@ -39,6 +39,6 @@ npm run lint
 
 Martin Harper-Lee
 
-www.harper-lee.co.uk (https://www.harper-lee.co.uk)
+[www.harper-lee.co.uk](https://www.harper-lee.co.uk)
 
 martin.lee.as@googlemail.com
