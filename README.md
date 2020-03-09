@@ -1,4 +1,11 @@
-# gentingcasinotest
+# Swapi Challenge
+
+###Javscript: 
+ES6 \ Vue \ Vuex  - Shows knowledge of state management, modern Javascript. Could have also chossen React \ Redux or Angular.
+###CSS:
+BEM - not ideal with scoped components but wanted to demonstrate knowledge of a variety of techniques / methodologies
+###Tests:
+Jest - Basic unit testing for core functionality and components
 
 ## Project setup
 ```
@@ -24,6 +31,8 @@ npm run test:unit
 ```
 npm run lint
 ```
+## Developer
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Martin Harper-Lee
+www.harper-lee.co.uk
+martin.lee.as@googlemail.com
