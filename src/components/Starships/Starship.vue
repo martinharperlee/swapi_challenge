@@ -1,5 +1,5 @@
 <template>
-  <article class="starship">
+  <article class="starship" :style="{ 'animation-delay': `${Math.random(1)}s` }">
     <header class="starship__header">
       <h2 class="starship__title">{{ name }}</h2>
       <p class="starship__model">{{ model }}</p>
@@ -43,6 +43,15 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .starship {
   $spaceY: 15px;
   $spaceX: 20px;
@@ -50,6 +59,9 @@ export default {
   padding: $spaceY $spaceX;
   margin: $spaceY $spaceX;
   height: calc(100% - (#{$spaceY * 4}));
+  opacity: 0;
+  animation: fadein 1.5s;
+  animation-fill-mode: forwards;
 
   &__header {
     position: relative;
