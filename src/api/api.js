@@ -6,7 +6,13 @@ const filmApiURL = `${apiDomain}films`;
 const pagesLeft = count => Math.ceil((count - 1) / 10);
 const combineResponses = (soFar, response) =>
   response.reduce((acc, data) => [...acc, ...data.data.results], soFar);
+
 const getAll = url => {
+  // could have used the next links one after each other
+  // by calculating number of pages, the remaining apis
+  // calls are all loaded together
+  // (relies on page length of 10)
+
   let set = [];
 
   return axios(url)
